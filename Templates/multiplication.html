@@ -1,0 +1,61 @@
+{% extends "base2.html" %}
+
+{% block content %}
+<form action="/multiplication" method="post">
+    <table class="table table-bordered border-primary">
+        <thead>
+        <tr>
+            <th scope="col">Question</th>
+            <th scope="col">Answer</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr>
+            <td>{{randomlist[0]}}*{{randomlist2[0]}}</td>
+            <td><input type="text" class="form-control" aria-describedby="username" name="number"></td>
+        </tr>
+        <tr>
+            <td>{{randomlist[1]}}*{{randomlist2[1]}}</td>
+            <td><input type="text" class="form-control" aria-describedby="username" name="number1"></td>
+        </tr>
+        <tr>
+            <td>{{randomlist[2]}}*{{randomlist2[2]}}</td>
+            <td><input type="text" class="form-control" aria-describedby="username" name="number2"></td>
+        </tr>
+        <tr>
+            <td>{{randomlist[3]}}*{{randomlist2[3]}}</td>
+            <td><input type="text" class="form-control" aria-describedby="username" name="number3"></td>
+        </tr>
+        <tr>
+            <td>{{randomlist[4]}}*{{randomlist2[4]}}</td>
+            <td><input type="text" class="form-control" aria-describedby="username" name="number4"></td>
+        </tr>
+        <tr>
+            <td>{{randomlist[5]}}*{{randomlist2[5]}}</td>
+            <td><input type="text" class="form-control" aria-describedby="username" name="number5"></td>
+        </tr>
+        <tr>
+            <td>{{randomlist[6]}}*{{randomlist2[6]}}</td>
+            <td><input type="text" class="form-control" aria-describedby="username" name="number6"></td>
+        </tr>
+        <tr>
+            <td>{{randomlist[7]}}*{{randomlist2[7]}}</td>
+            <td><input type="text" class="form-control" aria-describedby="username" name="number7"></td>
+        </tr>
+        <tr>
+            <td>{{randomlist[8]}}*{{randomlist2[8]}}</td>
+            <td><input type="text" class="form-control" aria-describedby="username" name="number8"></td>
+        </tr>
+        <tr>
+            <td>{{randomlist[9]}}*{{randomlist2[9]}}</td>
+            <td><input type="text" class="form-control" aria-describedby="username" name="number9"></td>
+        </tr>
+
+        </tbody>
+    </table>
+    <a><button type="submit" class="btn btn-primary">Submit</button></a>
+
+</form>
+
+{% endblock %}

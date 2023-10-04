@@ -1,0 +1,16 @@
+
+{% if flag == True -%}
+    {% extends "base.html" %}
+
+    {% block content %}
+    <h1>About Us</h1>
+    {% endblock %}
+
+{%- else -%}
+    {% extends "base2.html" %}
+
+    {% block content1 %}
+    <h1>About Us</h1>
+    {% endblock %}
+{%- endif %}
+

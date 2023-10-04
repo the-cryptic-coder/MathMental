@@ -1,0 +1,30 @@
+{% extends "base2.html" %}
+
+{% block content %}
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" xmlns="http://www.w3.org/1999/html">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/static/math1.jpg" class="d-block w-100" alt="..." height="580">
+            <div class="carousel-caption d-none d-md-block">
+                <img src="/static/weblogo1.png" height="100" width="500">
+                </br>
+                <h3>Improving Math And Mental Skills Around The World</h3>
+            </div>
+        </div>
+        <!--        <div class="carousel-item">-->
+        <!--            <img src="..." class="d-block w-100" alt="...">-->
+        <!--        </div>-->
+        <!--        <div class="carousel-item">-->
+        <!--            <img src="..." class="d-block w-100" alt="...">-->
+        <!--        </div>-->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+{% endblock %}
